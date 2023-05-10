@@ -1,0 +1,179 @@
+.lista-pokemon {
+    background-color: #D6FFF6;
+    width: 600px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    overflow: hidden;
+    box-shadow: 2px 3px 5px 2px black;
+    border-radius: 15px;
+}
+
+.nomes {
+    font-size: 20px;
+}
+
+
+.prof {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.prof img {
+
+    position: relative;
+    bottom: 10px;
+}
+
+.prof .fala {
+    position: relative;
+    right: 100px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px 1px 5px 1px black;
+}
+
+.botoes-menu {
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+
+.botoes-menu button {
+    background-color: #2374AB;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px 1px black;
+    text-decoration: none;
+    position: relative;
+    bottom: 50px;
+}
+
+.botoes-menu button:hover {
+    background-color: #2375ab3a;
+    color: black;
+}
+
+.botoes-menu button:active {
+    box-shadow: none;
+}
+
+.content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2374AB;
+}
+
+.pontos {
+    position: absolute;
+    top: 0;
+    top: 100px;
+    right: 0;
+    right: 100px;
+    background-color: #2374AB;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 1px black;
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px #000000, 
+    -1px 1px 0px #000000,                    
+     1px 0px 0px #000000;
+     padding: 20px;
+}
+
+.pontos p {
+    margin: 0;
+}
+
+.titulo, .nomes {
+    margin-left: 30px;
+}
+
+.titulo{
+    color: white;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px #000000, 
+    -1px 1px 0px #000000,                    
+     1px -1px 0px #000000,                  
+     1px 0px 0px #000000;
+}
+
+.titulo-main{
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+.titulo-main .poke{
+    color: white;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px #000000, 
+    -1px 1px 0px #000000,                    
+     1px -1px 0px #000000,                  
+     1px 0px 0px #000000;;
+}
+.titulo-main .catch{
+    color: rgb(226, 59, 59);
+    font-weight: bold;
+    text-shadow: -1px -1px 0px #000000, 
+    -1px 1px 0px #000000,                    
+     1px -1px 0px #000000,                  
+     1px 0px 0px #000000;;
+}
+.titulo-main img {
+    width: 40px;
+}
+
+.dificuldade  {
+    position: relative;
+    bottom: 200px;
+    left: 45px;
+    width: 100px;
+}
+
+.botao-dificuldade {
+    background-color: #2374AB;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 10px;
+    width: 80px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px 1px black;
+    position: relative;
+    border-radius: 3px;
+}
+.botao-dificuldade:hover{
+    background-color: aquamarine;
+    color: #000000;
+}
+.botao-dificuldade:active{
+    box-shadow: none;
+}
+
+.facil {
+    background-color: green;
+}
+.medio {
+    background-color: rgb(126, 126, 10);
+}
+.dificil {
+    background-color: rgb(160, 8, 8);
+}
